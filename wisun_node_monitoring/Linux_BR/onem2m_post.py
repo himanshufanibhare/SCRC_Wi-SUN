@@ -1,8 +1,8 @@
 import requests
 import json
 DEV_CREDENTIALS = {
-    'username':"Tue_20_12_22",
-    'password':"Tue_20_12_22"
+    'username':"USER",
+    'password':"PASS"
     }
 
 def create_cin(uri_cnt, value, cin_labels="", data_format="json", credentials = DEV_CREDENTIALS):
