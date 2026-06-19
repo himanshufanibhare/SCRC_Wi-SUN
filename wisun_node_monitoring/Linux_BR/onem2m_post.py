@@ -2,7 +2,7 @@ import requests
 import json
 DEV_CREDENTIALS = {
     'username':"USER",
-    'password':"PASS"
+    'password':"PASS" 
     }
 
 def create_cin(uri_cnt, value, cin_labels="", data_format="json", credentials = DEV_CREDENTIALS):
